@@ -1,0 +1,12 @@
+{
+  "name": "fintech-video-room-service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/video-room-service.ts",
+    "test": "tsx src/video-room-service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3", "@types/node": "^22.10.2" }
+}
